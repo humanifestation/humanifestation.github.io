@@ -1,0 +1,71 @@
+/**
+* CSS
+* 
+* @version 1.0
+* @author Vaska 
+* @author Felipe Turcheti
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #fff;
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a { color:#33CC66; text-decoration:underline }
+/*a:visited { text-decoration: none; color: #666; }*/
+a:hover { background:#33CC66; color:#fff; text-decoration:none; }
+
+a img { border: none; }
+
+#sidebar { position:absolute; top:28px; left:750px; width:150px; background:#fff; }
+#sidebar p { margin-bottom:30px; text-align:right; }
+.title { display:block; margin-bottom:30px; text-align:right; }
+.title h1 { font-size:18px; }
+.title span { font-size:14px; }
+#twitter_div { width:150px; text-align:right; display:block; white-space:wrap; text-overflow:ellipsis; margin-bottom:30px; }
+#twitter_div h3 { font-weight:normal; font-size:12px; display:block;  text-align:right; margin-bottom:3px; }
+#twitter_div h3 a { padding:1px 3px; }
+#twitter_div ul { list-style:none; }
+#twitter_div ul li { border-top:1px dotted #ccc; padding:3px 0; }
+
+#menu { width:740px; position:absolute; top: 30px; left: 10px; height: 50px;  z-index:4; }
+#menu p { float:left; }
+#menu ul { list-style: none; float:left; padding:0; }
+#menu ul li.section-title { font-size:10px; text-transform:lowercase; display:block; cursor:pointer; margin: 0 2px; background-color:#33CC66; color:#fff; padding:1px 7px; }
+#menu ul.submenu { display:none; z-index:5; margin:1px 0 0 2px; background:#fff; padding:5px 5px; }
+#menu ul:hover ul.submenu { display:inline; float:left;  }
+#menu a { text-decoration:none; color:#33CC66; }
+#menu a:hover { color:#fff; }
+#menu ul.active li.section-title { background:red; }
+#menu ul.submenu li.active a { color:red; }
+.pre_hide { display:none; }
+
+#content { height: 100%; position:absolute; top:95px; margin: 0 350px 0 15px; width:600px }
+#content p { margin: 0 0 1em 0; line-height:1.2em; }
+#content img, #content object, #content iframe { margin-bottom:1em; }
+#content a { color:red; text-decoration:underline; }
+#content a:hover { background:red; color:#fff; text-decoration:none; }
+
+#az_blog { width:700px; height:600px; overflow:auto; }
+
+.container { padding: 0 0 25px 0; }
+object, embed { display:block; z-index:3; }
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container { margin: 0; padding: 0; }
+#img-container p { width: 400px; margin: 0; padding: 0 0 12px 0; }
+
+#once { clear: left; }
+
