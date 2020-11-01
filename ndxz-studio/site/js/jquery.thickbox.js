@@ -1,10 +1,10 @@
 /*
  * Thickbox 2.1 - jQuery plugin for displaying content in a box above the page
  * 
- * Copyright (c) 2006, 2007 Cody Lindley (http://www.codylindley.com)
+ * Copyright (c) 2006, 2007 Cody Lindley (https://www.codylindley.com)
  *
  * Licensed under the MIT License:
- *   http://www.opensource.org/licenses/mit-license.php
+ *   https://www.opensource.org/licenses/mit-license.php
  */
 
 // on page load call TB_init
